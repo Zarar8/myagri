@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Business Tracking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agricultural Business Tracking System</h1>
+        <form id="expenseForm">
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" required><br><br>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" required><br><br>
+            <button type="submit">Add Expense</button>
+        </form>
+        <div id="expenseTable">
+            <!-- Display expenses table here -->
+        </div>
+        <div id="chartPlaceholder">
+            <!-- Chart will be displayed here -->
+        </div>
+        <div id="budgetSection">
+            <!-- Budgeting section -->
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
